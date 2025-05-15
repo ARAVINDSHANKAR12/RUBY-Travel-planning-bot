@@ -1,22 +1,61 @@
-RUBY - Travel Planning Chatbot
+# ✨ RUBY – Travel Planning Chatbot
 
-RUBY is an intelligent travel planning chatbot that combines cutting-edge Natural Language Processing (NLP) techniques with Retrieval-Augmented Generation (RAG) to deliver a seamless and personalized travel planning experience. This chatbot provides tailored itineraries, recommendations, and interactive voice-enabled conversations, making travel planning efficient and user-friendly.
+RUBY is an intelligent travel planning chatbot that leverages advanced Natural Language Processing (NLP) and Retrieval-Augmented Generation (RAG) to deliver a personalized, voice-enabled, and user-friendly travel planning experience.
 
-Key Features:
-Personalized Itineraries: Tailored recommendations based on user preferences.
-Voice Interaction: Converts text into speech for an engaging voice-enabled experience using JavaScript.
-Enhanced Understanding: Utilizes state-of-the-art embeddings and vector storage for precise context comprehension.
+---
 
-Core Technologies and Tools:
-Frontend: HTML, CSS, JavaScript
-Backend: Flask, LangChain
-NLP Models:
-LLama 3.0 for generating high-quality conversational responses.
-all-MiniLM-L6-v2 Sentence Transformer for efficient and accurate embeddings.
-Vector Storage: ChromaDB for effective and scalable retrieval operations.
+## 🌍 Overview
 
-Why RUBY?
-RUBY is more than just a chatbot—it’s a smart assistant that transforms how users plan their travels by combining advanced AI capabilities with a user-friendly interface and interactive voice features.
+RUBY helps users plan trips by generating customized itineraries, offering location-specific recommendations, and enabling real-time conversational interactions—all through a sleek web interface. It combines the power of LLaMA 3.0, sentence embeddings, and vector retrieval to understand user intent and provide meaningful responses.
 
-Feel free to explore the codebase, contribute, and customize RUBY for your own use cases!
+---
 
+## 🔑 Key Features
+
+- 🗺️ **Personalized Itineraries**  
+  Tailored travel plans based on user preferences, budget, and interests.
+
+- 🗣️ **Voice Interaction**  
+  Converts bot responses to speech using browser-based JavaScript APIs for an interactive experience.
+
+- 🧠 **Contextual Understanding**  
+  Utilizes sentence transformers and vector databases to retrieve the most relevant travel information.
+
+- ⚡ **Fast & Scalable**  
+  Built with modern tools to ensure quick responses and scalable performance.
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Frontend
+- `HTML`, `CSS`, `JavaScript` – Responsive user interface with voice output via Web Speech API.
+
+### 🧪 Backend
+- `Flask` – Lightweight Python web server for handling routes and chatbot logic.
+- `LangChain` – Framework for building context-aware, LLM-powered applications.
+
+### 🧠 NLP Models
+- `LLaMA 3.0` – Language model used for generating coherent and context-sensitive responses.
+- `all-MiniLM-L6-v2` – Sentence Transformer for generating embeddings used in semantic search.
+
+### 📦 Vector Storage
+- `ChromaDB` – Vector database for efficient retrieval and RAG-based generation.
+
+---
+
+## 🚀 Getting Started
+
+### 📥 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ruby-travel-chatbot.git
+cd ruby-travel-chatbot
+
+# Create virtual environment and activate it
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install Python dependencies
+pip install -r requirements.txt
